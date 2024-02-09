@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    background-color: aqua;
+}
+.icon img{
+    height: 90px;
+}
+.title{
+    grid-area: 1/2/1/4  ;
+    text-align: center;
+    padding: 20px;
+}
+.media ul li{
+display: inline-block;
+padding: 40px 20px 40px 40px;
+}
+
+.body{
+    min-height: 100vh;
+    display: flex;
+   
+}
+.sidebar{
+    height: 60vh;
+    width: 20%;
+    background-color: aquamarine;
+    padding: 20px;
+}
+.sidebar ul li{
+    list-style: none;
+    padding: 20px;
+}
+.button{
+    width: 100%;
+    padding: 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
